@@ -45,7 +45,7 @@ function convertCurrency(amount, price, symbol) {
         let total = amount * price
 
         // Verifica se o resultado não é um número.
-        if(isNan(total)){
+        if(isNaN(total)){
             return alert("Por favor, digite o valor corretamente para converter.")
         }
 
